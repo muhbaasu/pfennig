@@ -14,7 +14,6 @@
 
 - Create a database if you didn't already (expected default name: `pfennig`):
   - `create database if not exists pfennig;`
-- Run `database/run-migrations.sh` in your shell
-  Environment parameters:
+- Run `database/run-migrations.sh` in your shell.  The following Environment parameters can be customized:
   - `PG_USER` (default: `postgres`)
   - `PG_DATABASE` (default: `pfennig`)
